@@ -74,7 +74,7 @@ function App() {
           <>
             {showCorrect && (
               <div
-                className="h-screen w-screen flex justify-center items-center absolute backdrop-blur-lg text-3xl text-green-500 font-bold transition transform duration-200 ease-out scale-100 opacity-100 z-50"
+                className="h-screen w-screen flex flex-col gap-4 justify-center items-center absolute backdrop-blur-lg text-3xl text-green-500 font-bold transition transform duration-200 ease-out scale-100 opacity-100 z-50"
                 onClick={() => setShowCorrect(false)}
               >
                 <Confetti width={windowSize.width} height={windowSize.height} />
@@ -114,12 +114,16 @@ function App() {
             <div
               className="cursor-pointer"
               onClick={() => setIsSpoilerOpen(!isSpoilerOpen)}>
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-4 justify-center">
                 Réponse
                 {isSpoilerOpen ? <FiChevronUp /> : <FiChevronDown />}
               </div>
               {isSpoilerOpen && (
-                <div className="text-green-500 font-bold">{currentDep.nom}</div>
+                <div className="text-green-500 font-bold flex flex-col gap-4 mt-4">
+                  <p>{currentDep.nom}</p>
+                  <div className="flex gap-1"><p className="font-bold text-green-500">Chef-lieu : </p> <span> {currentDep.chef_lieu}</span></div>
+                </div>
+                
               )}
             </div>
           </>
