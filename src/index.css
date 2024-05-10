@@ -13,3 +13,14 @@
 input {
   @apply border border-green-500 rounded py-2 px-4;
 }
+
+@keyframes pop {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
