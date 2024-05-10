@@ -1,98 +1,573 @@
 [
-  {"code": "01", "nom": "Ain", "chef_lieu": "Bourg-en-Bresse"},
-  {"code": "02", "nom": "Aisne", "chef_lieu": "Laon"},
-  {"code": "03", "nom": "Allier", "chef_lieu": "Moulins"},
-  {"code": "04", "nom": "Alpes-de-Haute-Provence", "chef_lieu": "Digne-les-Bains"},
-  {"code": "05", "nom": "Hautes-Alpes", "chef_lieu": "Gap"},
-  {"code": "06", "nom": "Alpes-Maritimes", "chef_lieu": "Nice"},
-  {"code": "07", "nom": "Ardèche", "chef_lieu": "Privas"},
-  {"code": "08", "nom": "Ardennes", "chef_lieu": "Charleville-Mézières"},
-  {"code": "09", "nom": "Ariège", "chef_lieu": "Foix"},
-  {"code": "10", "nom": "Aube", "chef_lieu": "Troyes"},
-  {"code": "11", "nom": "Aude", "chef_lieu": "Carcassonne"},
-  {"code": "12", "nom": "Aveyron", "chef_lieu": "Rodez"},
-  {"code": "13", "nom": "Bouches-du-Rhône", "chef_lieu": "Marseille"},
-  {"code": "14", "nom": "Calvados", "chef_lieu": "Caen"},
-  {"code": "15", "nom": "Cantal", "chef_lieu": "Aurillac"},
-  {"code": "16", "nom": "Charente", "chef_lieu": "Angoulême"},
-  {"code": "17", "nom": "Charente-Maritime", "chef_lieu": "La Rochelle"},
-  {"code": "18", "nom": "Cher", "chef_lieu": "Bourges"},
-  {"code": "19", "nom": "Corrèze", "chef_lieu": "Tulle"},
-  {"code": "21", "nom": "Côte-d'Or", "chef_lieu": "Dijon"},
-  {"code": "22", "nom": "Côtes-d'Armor", "chef_lieu": "Saint-Brieuc"},
-  {"code": "23", "nom": "Creuse", "chef_lieu": "Guéret"},
-  {"code": "24", "nom": "Dordogne", "chef_lieu": "Périgueux"},
-  {"code": "25", "nom": "Doubs", "chef_lieu": "Besançon"},
-  {"code": "26", "nom": "Drôme", "chef_lieu": "Valence"},
-  {"code": "27", "nom": "Eure", "chef_lieu": "Évreux"},
-  {"code": "28", "nom": "Eure-et-Loir", "chef_lieu": "Chartres"},
-  {"code": "29", "nom": "Finistère", "chef_lieu": "Quimper"},
-  {"code": "2A", "nom": "Corse-du-Sud", "chef_lieu": "Ajaccio"},
-  {"code": "2B", "nom": "Haute-Corse", "chef_lieu": "Bastia"},
-  {"code": "30", "nom": "Gard", "chef_lieu": "Nîmes"},
-  {"code": "31", "nom": "Haute-Garonne", "chef_lieu": "Toulouse"},
-  {"code": "32", "nom": "Gers", "chef_lieu": "Auch"},
-  {"code": "33", "nom": "Gironde", "chef_lieu": "Bordeaux"},
-  {"code": "34", "nom": "Hérault", "chef_lieu": "Montpellier"},
-  {"code": "35", "nom": "Ille-et-Vilaine", "chef_lieu": "Rennes"},
-  {"code": "36", "nom": "Indre", "chef_lieu": "Châteauroux"},
-  {"code": "37", "nom": "Indre-et-Loire", "chef_lieu": "Tours"},
-  {"code": "38", "nom": "Isère", "chef_lieu": "Grenoble"},
-  {"code": "39", "nom": "Jura", "chef_lieu": "Lons-le-Saunier"},
-  {"code": "40", "nom": "Landes", "chef_lieu": "Mont-de-Marsan"},
-  {"code": "41", "nom": "Loir-et-Cher", "chef_lieu": "Blois"},
-  {"code": "42", "nom": "Loire", "chef_lieu": "Saint-Étienne"},
-  {"code": "43", "nom": "Haute-Loire", "chef_lieu": "Le Puy-en-Velay"},
-  {"code": "44", "nom": "Loire-Atlantique", "chef_lieu": "Nantes"},
-  {"code": "45", "nom": "Loiret", "chef_lieu": "Orléans"},
-  {"code": "46", "nom": "Lot", "chef_lieu": "Cahors"},
-  {"code": "47", "nom": "Lot-et-Garonne", "chef_lieu": "Agen"},
-  {"code": "48", "nom": "Lozère", "chef_lieu": "Mende"},
-  {"code": "49", "nom": "Maine-et-Loire", "chef_lieu": "Angers"},
-  {"code": "50", "nom": "Manche", "chef_lieu": "Saint-Lô"},
-  {"code": "51", "nom": "Marne", "chef_lieu": "Châlons-en-Champagne"},
-  {"code": "52", "nom": "Haute-Marne", "chef_lieu": "Chaumont"},
-  {"code": "53", "nom": "Mayenne", "chef_lieu": "Laval"},
-  {"code": "54", "nom": "Meurthe-et-Moselle", "chef_lieu": "Nancy"},
-  {"code": "55", "nom": "Meuse", "chef_lieu": "Bar-le-Duc"},
-  {"code": "56", "nom": "Morbihan", "chef_lieu": "Vannes"},
-  {"code": "57", "nom": "Moselle", "chef_lieu": "Metz"},
-  {"code": "58", "nom": "Nièvre", "chef_lieu": "Nevers"},
-  {"code": "59", "nom": "Nord", "chef_lieu": "Lille"},
-  {"code": "60", "nom": "Oise", "chef_lieu": "Beauvais"},
-  {"code": "61", "nom": "Orne", "chef_lieu": "Alençon"},
-  {"code": "62", "nom": "Pas-de-Calais", "chef_lieu": "Arras"},
-  {"code": "63", "nom": "Puy-de-Dôme", "chef_lieu": "Clermont-Ferrand"},
-  {"code": "64", "nom": "Pyrénées-Atlantiques", "chef_lieu": "Pau"},
-  {"code": "65", "nom": "Hautes-Pyrénées", "chef_lieu": "Tarbes"},
-  {"code": "66", "nom": "Pyrénées-Orientales", "chef_lieu": "Perpignan"},
-  {"code": "67", "nom": "Bas-Rhin", "chef_lieu": "Strasbourg"},
-  {"code": "68", "nom": "Haut-Rhin", "chef_lieu": "Colmar"},
-  {"code": "69", "nom": "Rhône", "chef_lieu": "Lyon"},
-  {"code": "70", "nom": "Haute-Saône", "chef_lieu": "Vesoul"},
-  {"code": "71", "nom": "Saône-et-Loire", "chef_lieu": "Mâcon"},
-  {"code": "72", "nom": "Sarthe", "chef_lieu": "Le Mans"},
-  {"code": "73", "nom": "Savoie", "chef_lieu": "Chambéry"},
-  {"code": "74", "nom": "Haute-Savoie", "chef_lieu": "Annecy"},
-  {"code": "75", "nom": "Paris", "chef_lieu": "Paris"},
-  {"code": "76", "nom": "Seine-Maritime", "chef_lieu": "Rouen"},
-  {"code": "77", "nom": "Seine-et-Marne", "chef_lieu": "Melun"},
-  {"code": "78", "nom": "Yvelines", "chef_lieu": "Versailles"},
-  {"code": "79", "nom": "Deux-Sèvres", "chef_lieu": "Niort"},
-  {"code": "80", "nom": "Somme", "chef_lieu": "Amiens"},
-  {"code": "81", "nom": "Tarn", "chef_lieu": "Albi"},
-  {"code": "82", "nom": "Tarn-et-Garonne", "chef_lieu": "Montauban"},
-  {"code": "83", "nom": "Var", "chef_lieu": "Toulon"},
-  {"code": "84", "nom": "Vaucluse", "chef_lieu": "Avignon"},
-  {"code": "85", "nom": "Vendée", "chef_lieu": "La Roche-sur-Yon"},
-  {"code": "86", "nom": "Vienne", "chef_lieu": "Poitiers"},
-  {"code": "87", "nom": "Haute-Vienne", "chef_lieu": "Limoges"},
-  {"code": "88", "nom": "Vosges", "chef_lieu": "Épinal"},
-  {"code": "89", "nom": "Yonne", "chef_lieu": "Auxerre"},
-  {"code": "90", "nom": "Territoire de Belfort", "chef_lieu": "Belfort"},
-  {"code": "91", "nom": "Essonne", "chef_lieu": "Évry-Courcouronnes"},
-  {"code": "92", "nom": "Hauts-de-Seine", "chef_lieu": "Nanterre"},
-  {"code": "93", "nom": "Seine-Saint-Denis", "chef_lieu": "Bobigny"},
-  {"code": "94", "nom": "Val-de-Marne", "chef_lieu": "Créteil"},
-  {"code": "95", "nom": "Val-d'Oise", "chef_lieu": "Cergy"}
+  {
+    "code": "01",
+    "nom": "Ain",
+    "chef_lieu": "Bourg-en-Bresse",
+    "image": "bourg-en-bresse.webp"
+  },
+  {
+    "code": "02",
+    "nom": "Aisne",
+    "chef_lieu": "Laon",
+    "image": "toits-laon.webp"
+  },
+  {
+    "code": "03",
+    "nom": "Allier",
+    "chef_lieu": "Moulins",
+    "image": "moulins.avif"
+  },
+  {
+    "code": "04",
+    "nom": "Alpes-de-Haute-Provence",
+    "chef_lieu": "Digne-les-Bains",
+    "image": "barcelonnette.webp"
+  },
+  {
+    "code": "05",
+    "nom": "Hautes-Alpes",
+    "chef_lieu": "Gap",
+    "image": "feb80e0d0a04925204d0368220905359.webp"
+  },
+  {
+    "code": "06",
+    "nom": "Alpes-Maritimes",
+    "chef_lieu": "Nice",
+    "image": "xlarge_nice_1466255_d6980c20c2.webp"
+  },
+  {
+    "code": "07",
+    "nom": "Ardèche",
+    "chef_lieu": "Privas",
+    "image": "ardeche-vallon-pont-arc.1584585.w740.webp"
+  },
+  {
+    "code": "08",
+    "nom": "Ardennes",
+    "chef_lieu": "Charleville-Mézières",
+    "image": "la-place-ducale-de-charleville-mezieres-petite-soeur-de-la-place-des-vosges-a-paris-1600x900.webp"
+  },
+  {
+    "code": "09",
+    "nom": "Ariège",
+    "chef_lieu": "Foix",
+    "image": "SAINT-LIZIER-ARIEGE-13-2048x1152.webp"
+  },
+  {
+    "code": "10",
+    "nom": "Aube",
+    "chef_lieu": "Troyes",
+    "image": "emile-zola-studio-og-6-scaled-1-1024x768.webp"
+  },
+  {
+    "code": "11",
+    "nom": "Aude",
+    "chef_lieu": "Carcassonne",
+    "image": "midi-carcassonne-cite-800x430.webp"
+  },
+  {
+    "code": "12",
+    "nom": "Aveyron",
+    "chef_lieu": "Rodez",
+    "image": "musee-soulage-cathedrale.webp"
+  },
+  {
+    "code": "13",
+    "nom": "Bouches-du-Rhône",
+    "chef_lieu": "Marseille",
+    "image": "vieux-port-de-nuit.1612931.w630.webp"
+  },
+  {
+    "code": "14",
+    "nom": "Calvados",
+    "chef_lieu": "Caen",
+    "image": "a0782b217b230309682ef3dfefdf69fd-caen.webp"
+  },
+  {
+    "code": "15",
+    "nom": "Cantal",
+    "chef_lieu": "Aurillac",
+    "image": "bG9jYWw6Ly8vMDAvMDAvMDYvMzgvOTQvMjAwMDAwNjM4OTQ5Ng.webp"
+  },
+  {
+    "code": "16",
+    "nom": "Charente",
+    "chef_lieu": "Angoulême",
+    "image": "angouleme.webp"
+  },
+  {
+    "code": "17",
+    "nom": "Charente-Maritime",
+    "chef_lieu": "La Rochelle",
+    "image": "rochelle.webp"
+  },
+  {
+    "code": "18",
+    "nom": "Cher",
+    "chef_lieu": "Bourges",
+    "image": "Bourges.webp"
+  },
+  {
+    "code": "19",
+    "nom": "Corrèze",
+    "chef_lieu": "Tulle",
+    "image": "tulle-quai-14-6571e7b36207d.webp"
+  },
+  {
+    "code": "21",
+    "nom": "Côte-d'Or",
+    "chef_lieu": "Dijon",
+    "image": "0b98e-istock-1074291938-blog.webp"
+  },
+  {
+    "code": "22",
+    "nom": "Côtes-d'Armor",
+    "chef_lieu": "Saint-Brieuc",
+    "image": "Bsbpc-aa7225_BERTHIER-Emmanuel.webp"
+  },
+  {
+    "code": "23",
+    "nom": "Creuse",
+    "chef_lieu": "Guéret",
+    "image": "st-vaury-01-6571e288e2857.webp"
+  },
+  {
+    "code": "24",
+    "nom": "Dordogne",
+    "chef_lieu": "Périgueux",
+    "image": "perigueux-010122A.webp"
+  },
+  {
+    "code": "25",
+    "nom": "Doubs",
+    "chef_lieu": "Besançon",
+    "image": "0602180364949-web-tete.webp"
+  },
+  {
+    "code": "26",
+    "nom": "Drôme",
+    "chef_lieu": "Valence",
+    "image": "625fba7d05547848708764.webp"
+  },
+  {
+    "code": "27",
+    "nom": "Eure",
+    "chef_lieu": "Évreux",
+    "image": "evreux-scaled.webp"
+  },
+  {
+    "code": "28",
+    "nom": "Eure-et-Loir",
+    "chef_lieu": "Chartres",
+    "image": "chartres.webp"
+  },
+  {
+    "code": "29",
+    "nom": "Finistère",
+    "chef_lieu": "Quimper",
+    "image": "quimper-1536x1028.webp"
+  },
+  {
+    "code": "2A",
+    "nom": "Corse-du-Sud",
+    "chef_lieu": "Ajaccio",
+    "image": "ajaccio.webp"
+  },
+  {
+    "code": "2B",
+    "nom": "Haute-Corse",
+    "chef_lieu": "Bastia",
+    "image": "belle-vue.webp"
+  },
+  {
+    "code": "30",
+    "nom": "Gard",
+    "chef_lieu": "Nîmes",
+    "image": "AdobeStock_277499536-1536x1024.webp"
+  },
+  {
+    "code": "31",
+    "nom": "Haute-Garonne",
+    "chef_lieu": "Toulouse",
+    "image": "les-quais-de-garonne_d-viet-crt-occitanie.webp"
+  },
+  {
+    "code": "32",
+    "nom": "Gers",
+    "chef_lieu": "Auch",
+    "image": "L-instantc-18-1354x900.webp"
+  },
+  {
+    "code": "33",
+    "nom": "Gironde",
+    "chef_lieu": "Bordeaux",
+    "image": "standard_compressed_6080155627_ab87538792_b.webp"
+  },
+  {
+    "code": "34",
+    "nom": "Hérault",
+    "chef_lieu": "Montpellier",
+    "image": "equipe-montpellier-1536x647.webp"
+  },
+  {
+    "code": "35",
+    "nom": "Ille-et-Vilaine",
+    "chef_lieu": "Rennes",
+    "image": "Patrimoine-rennes-vuduciel.webp"
+  },
+  {
+    "code": "36",
+    "nom": "Indre",
+    "chef_lieu": "Châteauroux",
+    "image": "2019-cht-raoul-cp-cm-benjamin-steimes-650x780-f50_50.webp"
+  },
+  {
+    "code": "37",
+    "nom": "Indre-et-Loire",
+    "chef_lieu": "Tours",
+    "image": "tours.webp"
+  },
+  {
+    "code": "38",
+    "nom": "Isère",
+    "chef_lieu": "Grenoble",
+    "image": "ville-grenoble.webp"
+  },
+  {
+    "code": "39",
+    "nom": "Jura",
+    "chef_lieu": "Lons-le-Saunier",
+    "image": "Visite-Guidee-Lons-le-Saunier.webp"
+  },
+  {
+    "code": "40",
+    "nom": "Landes",
+    "chef_lieu": "Mont-de-Marsan",
+    "image": "marsan.webp"
+  },
+  {
+    "code": "41",
+    "nom": "Loir-et-Cher",
+    "chef_lieu": "Blois",
+    "image": "blois-chateauroyal-201506-jpthibault-jdavid_0.webp"
+  },
+  {
+    "code": "42",
+    "nom": "Loire",
+    "chef_lieu": "Saint-Étienne",
+    "image": "barrage-de-grangent-loire-saint-etienne.webp"
+  },
+  {
+    "code": "43",
+    "nom": "Haute-Loire",
+    "chef_lieu": "Le Puy-en-Velay",
+    "image": "photo-2-luc-olivier.webp"
+  },
+  {
+    "code": "44",
+    "nom": "Loire-Atlantique",
+    "chef_lieu": "Nantes",
+    "image": "nantes-capitale-verte.webp"
+  },
+  {
+    "code": "45",
+    "nom": "Loiret",
+    "chef_lieu": "Orléans",
+    "image": "placedumatroi-orleans-statue-jeanne-arc.webp"
+  },
+  {
+    "code": "46",
+    "nom": "Lot",
+    "chef_lieu": "Cahors",
+    "image": "cahors-vue-generale.webp"
+  },
+  {
+    "code": "47",
+    "nom": "Lot-et-Garonne",
+    "chef_lieu": "Agen",
+    "image": "aa4738b86051cde869b26325dda062a0.webp"
+  },
+  {
+    "code": "48",
+    "nom": "Lozère",
+    "chef_lieu": "Mende",
+    "image": "vue-du-pont-notre-dame.webp"
+  },
+  {
+    "code": "49",
+    "nom": "Maine-et-Loire",
+    "chef_lieu": "Angers",
+    "image": "chateau-angers-vue-aerienne-c-alexandre-lamoureux.webp"
+  },
+  {
+    "code": "50",
+    "nom": "Manche",
+    "chef_lieu": "Saint-Lô",
+    "image": "remparts-fortifications-saint-lo-anibas-photography-955x600.webp"
+  },
+  {
+    "code": "51",
+    "nom": "Marne",
+    "chef_lieu": "Châlons-en-Champagne",
+    "image": "place-de-la-republique-pan-de-bois-fontaine-teddy-picaude-1920x960.webp"
+  },
+  {
+    "code": "52",
+    "nom": "Haute-Marne",
+    "chef_lieu": "Chaumont",
+    "image": "dsc-1569-1-1280x709.webp"
+  },
+  {
+    "code": "53",
+    "nom": "Mayenne",
+    "chef_lieu": "Laval",
+    "image": "chateau-musee-laval-1-1920x960.webp"
+  },
+  {
+    "code": "54",
+    "nom": "Meurthe-et-Moselle",
+    "chef_lieu": "Nancy",
+    "image": "a2c7fc86c6b887959f61fd704ff9d8c2bbc1c34f774d3dc41654207db787be9d.webp"
+  },
+  {
+    "code": "55",
+    "nom": "Meuse",
+    "chef_lieu": "Bar-le-Duc",
+    "image": "pont-Bar-le-Duc.webp"
+  },
+  {
+    "code": "56",
+    "nom": "Morbihan",
+    "chef_lieu": "Vannes",
+    "image": "Patrice-BAISSAC-DSC_7725-Vannes-ok-Presse-13-12-2024-1920x960.webp"
+  },
+  {
+    "code": "57",
+    "nom": "Moselle",
+    "chef_lieu": "Metz",
+    "image": "le-jardin-ephemere-installe-sur-la-place-de-la-comedie-fait-partie-d-espaces-verts-couvrant-pres-d-un-quart-de-la-superficie-de-la-ville-photo-philippe-gisselbrecht-ville-de-metz-1620988148.webp"
+  },
+  {
+    "code": "58",
+    "nom": "Nièvre",
+    "chef_lieu": "Nevers",
+    "image": "en-tete-nevers-pont-de-loire-fmr-travel-blog-1600x900.webp"
+  },
+  {
+    "code": "59",
+    "nom": "Nord",
+    "chef_lieu": "Lille",
+    "image": "ville-lille_1_2000.webp"
+  },
+  {
+    "code": "60",
+    "nom": "Oise",
+    "chef_lieu": "Beauvais",
+    "image": "beauvais.webp"
+  },
+  {
+    "code": "61",
+    "nom": "Orne",
+    "chef_lieu": "Alençon",
+    "image": "alencon-histoire-2.webp"
+  },
+  {
+    "code": "62",
+    "nom": "Pas-de-Calais",
+    "chef_lieu": "Arras",
+    "image": "arras-beffroi-ot-arras-pays-dartois-tama66-640x320-crop-1610626064.webp"
+  },
+  {
+    "code": "63",
+    "nom": "Puy-de-Dôme",
+    "chef_lieu": "Clermont-Ferrand",
+    "image": "clermont.webp"
+  },
+  {
+    "code": "64",
+    "nom": "Pyrénées-Atlantiques",
+    "chef_lieu": "Pau",
+    "image": "pau.webp"
+  },
+  {
+    "code": "65",
+    "nom": "Hautes-Pyrénées",
+    "chef_lieu": "Tarbes",
+    "image": "homnicity-tarbes.webp"
+  },
+  {
+    "code": "66",
+    "nom": "Pyrénées-Orientales",
+    "chef_lieu": "Perpignan",
+    "image": "AdobeStock_171790454-1536x1024.webp"
+  },
+  {
+    "code": "67",
+    "nom": "Bas-Rhin",
+    "chef_lieu": "Strasbourg",
+    "image": "b45bd509-city-13597-164c828f0b0.webp"
+  },
+  {
+    "code": "68",
+    "nom": "Haut-Rhin",
+    "chef_lieu": "Colmar",
+    "image": "centre-ville-colmar.webp"
+  },
+  {
+    "code": "69",
+    "nom": "Rhône",
+    "chef_lieu": "Lyon",
+    "image": "bandeau-lyon-vue-fourviere-1200x497.webp"
+  },
+  {
+    "code": "70",
+    "nom": "Haute-Saône",
+    "chef_lieu": "Vesoul",
+    "image": "560px-Vieux-Vesoul.webp"
+  },
+  {
+    "code": "71",
+    "nom": "Saône-et-Loire",
+    "chef_lieu": "Mâcon",
+    "image": "macon-shutterstock-1331677220-6267e646391e2110082732.webp"
+  },
+  {
+    "code": "72",
+    "nom": "Sarthe",
+    "chef_lieu": "Le Mans",
+    "image": "csm_lm_0093940_098a0d0da9.webp"
+  },
+  {
+    "code": "73",
+    "nom": "Savoie",
+    "chef_lieu": "Chambéry",
+    "image": "visiter-chambery.webp"
+  },
+  {
+    "code": "74",
+    "nom": "Haute-Savoie",
+    "chef_lieu": "Annecy",
+    "image": "onyvatravel-france-annecy-vieille-ville-1920x1281.webp"
+  },
+  {
+    "code": "75",
+    "nom": "Paris",
+    "chef_lieu": "Paris",
+    "image": "paris-de-nuit.1564392.w740.webp"
+  },
+  {
+    "code": "76",
+    "nom": "Seine-Maritime",
+    "chef_lieu": "Rouen",
+    "image": "Une-Rouen-S-F.webp"
+  },
+  {
+    "code": "77",
+    "nom": "Seine-et-Marne",
+    "chef_lieu": "Melun",
+    "image": "106875-Melun.webp"
+  },
+  {
+    "code": "78",
+    "nom": "Yvelines",
+    "chef_lieu": "Versailles",
+    "image": "versailles.webp"
+  },
+  {
+    "code": "79",
+    "nom": "Deux-Sèvres",
+    "chef_lieu": "Niort",
+    "image": "Niort.webp"
+  },
+  {
+    "code": "80",
+    "nom": "Somme",
+    "chef_lieu": "Amiens",
+    "image": "amiens-quai-belu.webp"
+  },
+  {
+    "code": "81",
+    "nom": "Tarn",
+    "chef_lieu": "Albi",
+    "image": "4-la-cathei-drale-vue-du-pont-neuf-3-min-1920x1080-f50_50.webp"
+  },
+  {
+    "code": "82",
+    "nom": "Tarn-et-Garonne",
+    "chef_lieu": "Montauban",
+    "image": "montauban.webp"
+  },
+  {
+    "code": "83",
+    "nom": "Var",
+    "chef_lieu": "Toulon",
+    "image": "toulon-1-scaled-tt-width-740-height-474-crop-1-bgcolor-ffffff-except_gif-1.webp"
+  },
+  { "code": "84", "nom": "Vaucluse", "chef_lieu": "Avignon", "image": "avignon.webp" },
+  {
+    "code": "85",
+    "nom": "Vendée",
+    "chef_lieu": "La Roche-sur-Yon",
+    "image": "La-Roche-sur-Yon--c--Ville-de-La-Roche-sur-Yon-780x560.webp"
+  },
+  {
+    "code": "86",
+    "nom": "Vienne",
+    "chef_lieu": "Poitiers",
+    "image": "AdobeStock_605918125-1024x683.webp"
+  },
+  {
+    "code": "87",
+    "nom": "Haute-Vienne",
+    "chef_lieu": "Limoges",
+    "image": "shutterstock_1831952194.webp"
+  },
+  {
+    "code": "88",
+    "nom": "Vosges",
+    "chef_lieu": "Épinal",
+    "image": "epinal_541.webp"
+  },
+  {
+    "code": "89",
+    "nom": "Yonne",
+    "chef_lieu": "Auxerre",
+    "image": "auxerre-vue-sur-la-ville-et-la-cathedrale-saint-etienne-1600x900.webp"
+  },
+  {
+    "code": "90",
+    "nom": "Territoire de Belfort",
+    "chef_lieu": "Belfort",
+    "image": "avec-le-numero-90-le-departement-du-territoire-est-le-plus-recent-de-france-hormis-les-departements-d-ile-de-france-photo-er-isabelle-petitlaurent-1595580241.webp"
+  },
+  {
+    "code": "91",
+    "nom": "Essonne",
+    "chef_lieu": "Évry-Courcouronnes",
+    "image": "1200x680_capitale-place-droits-de-homme-et-citoyen-evry-courcouronnes-credit-angelique-mian.webp"
+  },
+  {
+    "code": "92",
+    "nom": "Hauts-de-Seine",
+    "chef_lieu": "Nanterre",
+    "image": "a2191129-city-16829-170a91c7488.webp"
+  },
+  {
+    "code": "93",
+    "nom": "Seine-Saint-Denis",
+    "chef_lieu": "Bobigny",
+    "image": "csm_20171018_hp_tram_007_162ae2f268.webp"
+  },
+  {
+    "code": "94",
+    "nom": "Val-de-Marne",
+    "chef_lieu": "Créteil",
+    "image": "creteil-ville-de-transition-une.webp"
+  },
+  {
+    "code": "95",
+    "nom": "Val-d'Oise",
+    "chef_lieu": "Cergy",
+    "image": "investir-immobilier-cergy-pontoise.webp"
+  }
 ]

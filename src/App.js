@@ -38,7 +38,9 @@ function App() {
 
   const shuffleDep = () => {
     const randomDep = deps[Math.floor(Math.random() * deps.length)];
+    console.log("RANDOM", randomDep);
     setCurrentDep(randomDep);
+    console.log(randomDep);
     setIsSpoilerOpen(false); // Ajoutez cette ligne
   };
 
@@ -57,14 +59,23 @@ function App() {
   };
 
   return (
-    <div className="App flex min-h-screen bg-gray-50">
-      <div className="flex flex-col w-fit m-auto items-center justify-center gap-4 text-center">
+    // <div>
+    //   {currentDep.code}
+    // </div>
+    <div className="App flex flex-col min-h-screen bg-gray-50">
+     {currentDep && currentDep.image && (
+      <div className="h-40 lg:h-80 shadow-xl">
+      <img src={`./images/${currentDep.image}`} alt="Hero" className="h-full w-full object-cover"></img>
+    </div>
+     )}
+
+      <div className="flex flex-col w-fit mx-auto lg:m-auto items-center justify-center gap-4 text-center pt-10">
         {currentDep && (
           <>
             {showCorrect && (
               <div
-                className="h-screen w-screen flex justify-center items-center pt-24 absolute backdrop-blur-lg text-3xl text-green-500 font-bold transition transform duration-200 ease-out scale-100 opacity-100 z-50"
-                onClick={() => setShowCorrect(false)} // Ajoutez cette ligne
+                className="h-screen w-screen flex justify-center items-center absolute backdrop-blur-lg text-3xl text-green-500 font-bold transition transform duration-200 ease-out scale-100 opacity-100 z-50"
+                onClick={() => setShowCorrect(false)}
               >
                 <Confetti width={windowSize.width} height={windowSize.height} />
                 Correct !
@@ -92,12 +103,12 @@ function App() {
               ))}
             </datalist>
             <div className="flex gap-4">
-                         <button onClick={checkAnswer} className="btn">
-              Vérifier
-            </button>
-            <button onClick={shuffleDep} className="btn-outline">
-              <FiRefreshCcw />
-            </button> 
+              <button onClick={checkAnswer} className="btn">
+                Vérifier
+              </button>
+              <button onClick={shuffleDep} className="btn-outline">
+                <FiRefreshCcw />
+              </button>
             </div>
 
             <div
